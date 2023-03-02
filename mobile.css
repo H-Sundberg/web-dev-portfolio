@@ -1,0 +1,72 @@
+/*responsive for smaller screen*/
+
+nav .fa-solid{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+    .header-text{
+        margin-top: 50%;
+        font-size: 16px;
+    }
+    .header-text h1{
+        font-size: 30px;
+    }
+
+    .header-text h1 span{
+        font-size: 30px;
+    }
+
+    nav h1 {
+        font-size: 25px;
+    }
+
+    nav ul {
+        background: #2580b4;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px;
+    }
+
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .sub-title{
+        font-size: 40px;
+    }
+
+    .tab-links{
+        font-size: 17px;
+        margin-right: 25px;
+    }
+
+    .copyright{
+        font-size: 14px;
+        width: 100%;
+    }
+
+
+}
