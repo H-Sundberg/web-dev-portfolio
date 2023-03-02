@@ -8,6 +8,8 @@
     <title>Henrietta Sundberg Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="mobile.css" rel="stylesheet" type="text/css">
+    <link href="style_about.css" rel="stylesheet" type="text/css">
+    <link href="style_projects.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
 
 </head>
@@ -29,10 +31,10 @@
                 <h1>Hi There, <br> I'm <span>Henrietta</span> </h1></br>
             </div>
         </div>
-        
+
     </div>
 
-<!--------------ABOUT---------------->
+    <!--------------ABOUT---------------->
 
     <div id="about">
         <div class="container">
@@ -98,23 +100,17 @@
 
     <!--------------PROJECTS---------------->
 
-    <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">Projects</h1>
-            <div class="tab-titles">
-                <p class="tab-links active-link" onclick="opentab('skills')">UI/UX</p>
-                <p class="tab-links" onclick="opentab('Work experience')">App Development</p>
-                <p class="tab-links" onclick="opentab('Education')">Web Development</p>
-                <p class="tab-links" onclick="opentab('Education')">Other</p>
-            </div>
-            <div class="tab-contents active-tab" id="skills">
-            </div>
-            <div class="tab-contents" id="Work experience">
-            </div>
-            <div class="tab-contents" id="Education">
-            </div>
-            <div class="work-list">
-                <div class="work">
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Projects</h1>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('UI/UX')">UI/UX</p>
+                    <p class="tab-links" onclick="opentab('App Development')">App Development</p>
+                    <p class="tab-links" onclick="opentab('Web Development')">Web Development</p>
+                    <p class="tab-links" onclick="opentab('Other')">Other</p>
+                </div>
+                <div class="tab-contents active-tab" id="UI/UX">
                     <img src="images/adventurous_tod.png" alt="">
                     <div class="layer">
                         <h3>Web Prototype</h3>
@@ -124,8 +120,25 @@
                             href="https://www.figma.com/proto/jDuiRWgPqhFRRMHphQpBtt/Live-Prototype---website-version---UI-game-design?node-id=9%3A32&starting-point-node-id=9%3A32"><i
                                 class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
+                    <img src="images/svinn.png" alt="">
+                        <div class="layer">
+                            <h3>App Prototype</h3>
+                            <p> App group project made in the tool Figma.
+                            </p>
+                            <a
+                                href="https://www.figma.com/proto/L6kt5U9gmYqg7elbtqtc4w/Svinnimize---Prototyp-3?node-id=434%3A4349&scaling=scale-down&page-id=0%3A1&starting-point-node-id=434%3A4349&show-proto-sidebar=1"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <img src="images/discord_bot_prototype.png" alt="">
+                        <div class="layer">
+                            <h3>Discord Bot Web Prototype</h3>
+                            <p> Discord Bot Prototype made as a group project as a side project.
+                            </p>
+                            <a
+                                href="https://www.figma.com/proto/veIpaCi7seMxyaN0pFJEEY/CanvasBot-Hemsida-prototyp?node-id=19%3A91"></i></a>
+                        </div>
                 </div>
-                <div class="work">
+                <div class="tab-contents" id="App Development">
                     <img src="images/flutter_app.png" alt="">
                     <div class="layer">
                         <h3>Flutter App</h3>
@@ -135,38 +148,7 @@
                                 class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
-                <div class="work">
-                    <img src="images/svinn.png" alt="">
-                    <div class="layer">
-                        <h3>App Prototype</h3>
-                        <p> App group project made in the tool Figma.
-                        </p>
-                        <a
-                            href="https://www.figma.com/proto/L6kt5U9gmYqg7elbtqtc4w/Svinnimize---Prototyp-3?node-id=434%3A4349&scaling=scale-down&page-id=0%3A1&starting-point-node-id=434%3A4349&show-proto-sidebar=1"><i
-                                class="fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/discord_bot.png" alt="">
-                    <div class="layer">
-                        <h3>Discord Bot</h3>
-                        <p> Discord Bot with canvas API made as a group project as a side project.
-                        </p>
-                        <a href="https://github.com/orgs/Grupp-17/repositories"><i
-                                class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/discord_bot_prototype.png" alt="">
-                    <div class="layer">
-                        <h3>Discord Bot Web Prototype</h3>
-                        <p> Discord Bot Prototype made as a group project as a side project.
-                        </p>
-                        <a
-                            href="https://www.figma.com/proto/veIpaCi7seMxyaN0pFJEEY/CanvasBot-Hemsida-prototyp?node-id=19%3A91"></i></a>
-                    </div>
-                </div>
-                <div class="work">
+                <div class="tab-contents" id="Web Development">
                     <img src="images/portfolio.png" alt="">
                     <div class="layer">
                         <h3>Portfolio Website</h3>
@@ -175,46 +157,67 @@
                         <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
+                <div class="work-list">
+                    <div class="work">
+                    </div>
+                    <div class="work">
+                    </div>
+                    <div class="work">
+                    </div>
+                    <div class="work">
+                        <img src="images/discord_bot.png" alt="">
+                        <div class="layer">
+                            <h3>Discord Bot</h3>
+                            <p> Discord Bot with canvas API made as a group project as a side project.
+                            </p>
+                            <a href="https://github.com/orgs/Grupp-17/repositories"><i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                    </div>
+                    <div class="work">
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="copyright">
-        <p>Made as a hobby project <i class="fa-solid fa-heart"></i></p>
-    </div>
+        <div class="copyright">
+            <p>Made as a hobby project <i class="fa-solid fa-heart"></i></p>
+        </div>
 
 
-    <script>
+        <script>
 
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
 
-        function opentab(tabname) {
-            for (tablink of tablinks) {
-                tablink.classList.remove("active-link");
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
             }
-            for (tabcontent of tabcontents) {
-                tabcontent.classList.remove("active-tab");
+
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu() {
+                sidemenu.style.right = "0";
             }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-        }
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
 
-    </script>
+        </script>
 
-    <script>
-        var sidemenu = document.getElementById("sidemenu");
-
-        function openmenu() {
-            sidemenu.style.right = "0";
-        }
-        function closemenu() {
-            sidemenu.style.right = "-200px";
-        }
-
-    </script>
-
-<script>src="main.js"</script>
+        <script>src = "main.js"</script>
 
 </body>
 
