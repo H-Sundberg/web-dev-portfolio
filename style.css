@@ -16,7 +16,6 @@ body {
 
 #header {
     width: 100%;
-    /*height: 100pc;*/
     background-size: cover;
     background-position: center;
 
@@ -84,24 +83,15 @@ nav ul li a:hover::after {
 
 /*--------------CONTACT----------------*/
 
-.contact{
-    flex-basis: 35%;
-}
-
-.contact p{
-    margin-top: 30px;
-
-}
 
 .social-icons {
     margin-top: 30px;
 }
 
 .social-icons a {
-    padding: 20px;
     text-decoration: none;
     font-size: 33px;
-    margin-right: 15px;
+    margin-right: 40px;
     color:  #2580b4;
     display: inline-block;
     transition: transform 0.5s;

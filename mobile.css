@@ -4,8 +4,6 @@ nav .fa-solid{
     display: none;
 }
 
-
-
 @media only screen and (max-width: 600px) {
 
 
@@ -22,12 +20,8 @@ nav .fa-solid{
         font-size: 30px;
     }
 
-    nav h1 {
-        font-size: 25px;
-    }
-
     nav ul {
-        background: #2580b4;
+        background: #041a27;
         position: fixed;
         top: 0;
         right: -200px;
@@ -40,12 +34,13 @@ nav .fa-solid{
 
     nav ul li {
         display: block;
-        margin: 25px;
+        margin: 15px;
     }
 
     nav .fa-solid{
         display: block;
         font-size: 25px;
+        /*right: 25px;*/ /*why doesnt this change the position of the hamburger icon?*/
     }
 
     nav ul .fa-solid{
@@ -54,12 +49,31 @@ nav .fa-solid{
         left: 25px;
         cursor: pointer;
     }
-    .sub-title{
-        font-size: 40px;
+
+    nav .fa-solid {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        cursor: pointer;
     }
 
-    .tab-links{
+    #about .sub-title{
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    #about .tab-links{
         font-size: 17px;
+        margin-right: 25px;
+    }
+
+    #portfolio .sub-title{
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    #portfolio .tab-links{
+        font-size: 15px;
         margin-right: 25px;
     }
 
