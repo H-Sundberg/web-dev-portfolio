@@ -5,7 +5,7 @@ Welcome to my web portfolio! This website showcases my skills, experience, and p
 # Description
 
 
-My portfolio website is a responsive and interactive single-page application built with HTML, CSS, and JavaScript. The website features a clean and modern design with easy navigation and intuitive UI components. The website includes my bio, skills, work experience, education, projects and contact information.
+My portfolio website is a responsive and interactive single-page application built with HTML, CSS, and JavaScript. The website features a clean and modern design with easy navigation and intuitive UI components. The website includes my bio, skills, work experience, education and projects and contact information through LinkedIn.
 
 # Technologies Used
 

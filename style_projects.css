@@ -91,7 +91,6 @@
     margin: 10px 0;
 }
 
-
 .btn {
     display: block;
     margin: 50px auto;
@@ -107,3 +106,158 @@
 .btn:hover {
     background: #2580b4;
 }
+
+.project-section {
+    display: flex;
+    align-items: center; /*or flex-start?*/
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.project-section.reverse {
+    flex-direction: row-reverse; /* Reverse order for alternating layout */
+}
+
+.text-box {
+    flex: 1;
+    padding: 20px;
+    background-color: #080c17;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.text-box h2 {
+    color: #2580b4;
+}
+
+.project-image {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project-image img:hover {
+    transform: scale(1.1);
+}
+
+.project-demo {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#project-content {
+    padding: 20px;
+}
+
+.pdf-preview {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.pdf-preview:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.modal video {
+    margin: auto;
+    display: block;
+    max-width: 90%; /* Responsive size */
+    max-height: 90%; /* Responsive size */
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+/* Styling for the 'Explore project' button */
+.explore-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #2580b4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+/* Style for the icon inside the button */
+.explore-btn i {
+    font-size: 24px; /* Keep the icon large */
+    transition: all 0.3s ease;
+}
+
+/* Initially hide the text */
+.explore-btn span {
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    white-space: nowrap;
+    display: none; /* Hide the text initially */
+}
+
+/* Hover effect for the button */
+.explore-btn:hover {
+    width: 200px; /* Expand the button to reveal the text */
+    border-radius: 30px;
+    justify-content: flex-start; /* Align icon and text horizontally */
+    padding-left: 20px; /* Add padding for alignment */
+    padding-right: 20px;
+}
+
+/* Show the text on hover */
+.explore-btn:hover span {
+    display: inline-block;
+    opacity: 1; /* Fade in the text */
+    margin-left: 10px; /* Ensure space between the icon and text */
+}
+
+/* Keep the icon visible initially */
+.explore-btn i {
+    transition: none;
+}
+
