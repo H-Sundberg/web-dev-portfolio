@@ -14,4 +14,3 @@ The website was built using the following technologies:
 HTML
 CSS
 JavaScript
-Font Awesome
