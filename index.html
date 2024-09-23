@@ -10,11 +10,10 @@
     <link href="mobile.css" rel="stylesheet" type="text/css">
     <link href="style_about.css" rel="stylesheet" type="text/css">
     <link href="style_projects.css" rel="stylesheet" type="text/css">
-    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
-
-</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
 
 <body>
+    <!-- Header Section -->
     <div id="header">
         <div class="container">
             <nav>
@@ -27,171 +26,148 @@
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>Systems Science Student</p>
-                <h1>Hi There, <br> I'm <span>Henrietta</span> </h1></br>
+                <h1>Hi There, <br> I'm <span>Henrietta</span> </h1>
+                <h2>Welcome to my <span>portfolio!</span></h2>
             </div>
         </div>
-
     </div>
 
-    <!--------------ABOUT---------------->
-
+    <!-- About Section -->
     <div id="about">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="img/cv_bild.png">
+                    <img src="img/cv_bild.png" alt="Profile Picture">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>Proin diam enim, scelerisque in diam sit amet, vestibulum pretium odio. Vestibulum ultricies
-                        dignissim arcu, nec cursus elit cursus vel. Cras eleifend tortor sapien, vitae dictum enim
-                        maximus id. Proin dictum rutrum risus, sit amet porta ex aliquam in. Integer faucibus eros in
-                        quam mollis, et suscipit est porta. Curabitur ut velit sapien. Suspendisse potenti. Aliquam in
-                        tristique enim, vel sollicitudin neque. In hac habitasse platea dictumst. Maecenas fringilla
-                        justo vitae lacinia vestibulum.
-                    </p>
+                    <p>I’m a graduate specializing in Interaction Design, passionate about using technology to create meaningful solutions in the healthtech sector. I'm currently working on a startup project to address the health gender gap and tackle underrepresentation of women in clinical trials.</p>
 
+                    <!-- Tabs for Skills, Work Experience, Education -->
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('Work experience')">Work experience</p>
-                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('work-experience')">Work Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
                     </div>
+                    
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
                             <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
-                            <li><span>Technical</span><br>Knowledge in programming, bussiness analytics, AI and
-                                databases</li>
-                            <li><span>Organizational</span><br>Knowledge in management, IT-strategies, HCI and
-                                digitalisation</li>
+                            <li><span>Technical</span><br>Knowledge in programming, business analytics, AI, and databases</li>
+                            <li><span>Organizational</span><br>Management, IT-strategy, HCI, and digitalization</li>
                         </ul>
                     </div>
-                    <div class="tab-contents" id="Work experience">
-                        <ul>
-                            <li><span>Novacura, 2022</span><br>Product support consultant</li>
-                            <li><span>SATS, 2015-2020</span><br>Costumer service</li>
-                            <li><span>Thule, 2018-2020</span><br>Seller</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="Education">
-                        <ul>
-                            <li><span>Univeristy of Gothenburg, 2020-2023</span><br>B.Sc in Systems Science - Thesis in
-                                collaboration
-                                with AISweden and VGR</li>
-                            <li><span>University of Uppsala, 2022</span><br>UI Design for Games</li>
-                            <li><span>Univeristy of Skövde, 2022</span><br>Sustainable Product Development focusing on
-                                UX</li>
-                            <li><span>Univeristy of Linköping, 2021</span><br>Elements of AI</li>
-                            <li><span>Univeristy of Lund, 2017</span><br>Media and communication Science</li>
-                        </ul>
 
+                    <div class="tab-contents" id="work-experience">
+                        <ul>
+                            <li><span>Thule, 2023-present</span><br>Sales Associate</li>
+                            <li><span>Novacura, 2022</span><br>Product Support Consultant</li>
+                            <li><span>SATS, 2015-2020</span><br>Customer Service</li>
+                        </ul>
                     </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Chalmers University of Technology, 2023-pending</span><br>MSc in Interaction Design and Technologies</li>
+                            <li><span>Universidade de Lisboa, Exchange Semester 2024</span><br>MSc in Computer Science</li>
+                            <li><span>University of Gothenburg, 2020-2023</span><br>BSc in Systems Science</li>
+                        </ul>
+                    </div>
+
                     <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/henrietta-sundberg-68a411190/"><i
-                                class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/H-Sundberg">
-                            <i class="fa-brands fa-square-github"></i></a>
-                    </div>
-                    <a href="img/resumé_Henrietta_Sundberg.pdf" download class="btn btn2">Download CV</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--------------PROJECTS---------------->
-
-
-        <div id="portfolio">
-            <div class="container">
-                <h1 class="sub-title">Projects</h1>
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('UI/UX')">UI/UX</p>
-                    <p class="tab-links" onclick="opentab('App Development')">App Development</p>
-                    <p class="tab-links" onclick="opentab('Web Development')">Web Development</p>
-                    <p class="tab-links" onclick="opentab('Other')">Other</p>
-                </div>
-                <div class="tab-contents active-tab" id="UI/UX">
-                    <div class="work">
-                    <img src="img/adventurous_tod.png" alt="">
-                    <div class="layer">
-                        <h3>Web Prototype</h3>
-                        <p> UI Game Design project I made in the course UI Design for Games at Uppsala University.
-                        </p>
-                        <a
-                            href="https://www.figma.com/proto/jDuiRWgPqhFRRMHphQpBtt/Live-Prototype---website-version---UI-game-design?node-id=9%3A32&starting-point-node-id=9%3A32"><i
-                                class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                    <div class="work">
-                    <img src="img/svinn.png" alt="">
-                        <div class="layer">
-                            <h3>App Prototype</h3>
-                            <p> App group project made in the tool Figma.
-                            </p>
-                            <a
-                                href="https://www.figma.com/proto/L6kt5U9gmYqg7elbtqtc4w/Svinnimize---Prototyp-3?node-id=434%3A4349&scaling=scale-down&page-id=0%3A1&starting-point-node-id=434%3A4349&show-proto-sidebar=1"><i
-                                    class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
-                        <div class="work">
-                        <img src="img/discord_bot_prototype.png" alt="">
-                        <div class="layer">
-                            <h3>Discord Bot Web Prototype</h3>
-                            <p> Discord Bot Prototype made as a group project as a side project.
-                            </p>
-                            <a
-                                href="https://www.figma.com/proto/veIpaCi7seMxyaN0pFJEEY/CanvasBot-Hemsida-prototyp?node-id=19%3A91"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-contents" id="App Development">
-                    <div class="work">
-                    <img src="img/flutter_app.png" alt="">
-                    <div class="layer">
-                        <h3>Flutter App</h3>
-                        <p> App made as a group project in an app development course.
-                        </p>
-                        <a href="https://github.com/gu-tig333-ht22/Grupp-7-"><i
-                                class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                </div>
-                <div class="tab-contents" id="Web Development">
-                    <div class="work">
-                    <img src="img/portfolio.png" alt="">
-                    <div class="layer">
-                        <h3>Portfolio Website</h3>
-                        <p> Look into the code behind the portfolio you're currently looking on
-                        </p>
-                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
-            </div>
-                <div class="tab-contents" id="Other">
-                <div class="work-list">
-                    <div class="work">
-                        <img src="img/discord_bot.png" alt="">
-                        <div class="layer">
-                            <h3>Discord Bot</h3>
-                            <p> Discord Bot with canvas API made as a group project as a side project.
-                            </p>
-                            <a href="https://github.com/orgs/Grupp-17/repositories"><i
-                                    class="fa-solid fa-up-right-from-square"></i></a>
-                        </div>
+                        <a href="https://www.linkedin.com/in/henrietta-sundberg-68a411190/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/H-Sundberg"><i class="fa-brands fa-square-github"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-        <div class="copyright">
-            <p>Made as a hobby project <i class="fa-solid fa-heart"></i></p>
+    <!-- Projects Section -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('EGRetail')">EG Retail</p>
+            <p class="tab-links" onclick="opentab('HealthAgent')">Nutrition and Exercise App</p>
+            <p class="tab-links" onclick="opentab('CollaborativeRemote')">Collaborative Remote</p>
+            <p class="tab-links" onclick="opentab('Lumina')">Lumina</p>
+            <p class="tab-links" onclick="opentab('TheLeaf')">The Leaf</p>
         </div>
 
-        <!--------------PROJECTS---------------->
+        <!-- Project Summary Sections -->
+        <div class="tab-contents active-tab" id="EGRetail">
+            <div class="work">
+                <img src="img/Instore app 2.0.png" alt="EG Retail App">
+                <div class="layer">
+                    <h3>InStore App 2.0</h3>
+                    <p>Collaborated with EG Retail AB to redesign the Goods Receipt and Purchase modules in their existing app.</p>
+                    <button onclick="showProjectDetails('EGRetail')">View Details</button>
+                </div>
+            </div>
+        </div>
 
-        <script src = "main.js"></script>
+        <div class="tab-contents" id="HealthAgent">
+            <div class="work">
+                <img src="img/HealthAgent.png" alt="HealthAgent App">
+                <div class="layer">
+                    <h3>HealthAgent - Nutrition and Exercise Tracking App</h3>
+                    <p>Developed a mobile app to track nutrition and exercise habits.</p>
+                </div>
+            </div>
+        </div>
 
+        <div class="tab-contents" id="CollaborativeRemote">
+            <div class="work">
+                <img src="img/RemoteCollaboration.png" alt="Collaborative Remote App">
+                <div class="layer">
+                    <h3>Collaborative Remote - Remote Team Collaboration Tool</h3>
+                    <p>Designed a solution to enhance remote collaboration for teams.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-contents" id="Lumina">
+            <div class="work">
+                <img src="img/Lumina.png" alt="Lumina App">
+                <div class="layer">
+                    <h3>Lumina - Smart Lighting System Interface</h3>
+                    <p>Created a high-fidelity prototype for a smart lighting system interface.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-contents" id="TheLeaf">
+            <div class="work">
+                <img src="img/TheLeaf.png" alt="The Leaf">
+                <div class="layer">
+                    <h3>The Leaf - Sustainability Education Platform</h3>
+                    <p>Developed a platform to educate users about sustainability.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+</div>
+
+<!-- Project Details Section (Hidden by Default) -->
+<div id="project-details" class="container" style="display:none;">
+    <div id="project-content">
+        <!-- Dynamic content will be injected here -->
+    </div>
+    <a href="#" onclick="returnToPortfolio()">Back to Projects</a>
+</div>
+
+    <!-- Footer -->
+    <div class="copyright">
+        <p>Made as a hobby project <i class="fa-solid fa-heart"></i></p>
+    </div>
+
+    <script src="main.js"></script>
 </body>
 
 </html>

@@ -70,6 +70,28 @@
     height: 100%;
 }
 
+/* Style for Project Details Section */
+#project-details {
+    padding: 20px;
+}
+
+#project-details h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+#project-details p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.project-images img {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px 0;
+}
+
+
 .btn {
     display: block;
     margin: 50px auto;
