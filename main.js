@@ -26,40 +26,54 @@ projectTabLinks.forEach(function(link) {
 function showProjectDetails(project) {
     var projectDetails = {
         EGRetail: `
-            <h1>InStore App 2.0</h1>
 
-
-            <div class="project-section">
-                <div class="text-box">
-                    <h2>TASK</h2>
-                    <p>We collaborated with EG Retail to redesign the Goods Receipt and Purchase modules in their existing app, enhancing user experience and functionality.</p>
+         <div class="project-section">
+         <div class="project-title">
+         <h1>InStore App 2.0</h1>
+           </div>
+           <div class="project-image">
+                    <img src="img/ISA_prototype_display.png" alt="Poster">
                 </div>
             </div>
 
             <div class="project-section">
+            <div class="project-image">
+                    <img src="img/ISA_double_img.png
+" alt="Design Process">
+                </div>
+                <div class="text-box">
+                    <h2>TASK</h2>
+                    <p>Two other students and I collaborated with the company EG Retail to redesign the Goods Receipt and Purchase modules in their existing app, enhancing user experience and functionality by creating a logical flow.</p>
+                 </div>
+            </div>
+
+
+
+            <div class="project-section">
                 <div class="text-box">
                     <h2>APPROACH</h2>
-                    <p>We followed the Double Diamond method, which involves four stages: Discover, Define, Develop, and Deliver. This structured approach helped us identify user needs and create innovative solutions.</p>
-                </div>
+                    <p>The project followed the Double Diamond method, which involves four stages: Discover, Define, Develop, and Deliver. This structured approach helped us identify the users needs and create a solution that aligned with their expectations.</p>
                 <div class="project-image">
                     <img src="img/ISA_process.png" alt="Design Process">
                 </div>
+                    </div>
+                
             </div>
 
             <div class="project-section reverse">
                 <div class="text-box">
                     <h2>POSTER</h2>
-                    <p>We developed a visually engaging poster to effectively communicate our project's key concepts and outcomes. A well-designed poster serves as a powerful tool for summarizing complex information in a digestible format, making it easier for audiences to grasp the essence of our work at a glance. It also enhances visibility at events and presentations, encouraging dialogue and fostering interest among stakeholders.</p>
+                    <p>We created a clear and visually appealing poster to communicate the key concepts and outcomes of our project. The poster helped simplify complex information, making it easier for audiences to quickly grasp the essence of our work. It also enhanced visibility during our presentation and while displayed at the university.</p>
                 </div>
                 <div class="project-image">
-                    <img src="img/ISA_poster.png" alt="Final Product">
+                    <img src="img/ISA_poster.png" alt="Poster">
                 </div>
             </div>
 
         <div class="project-section">
     <div class="text-box">
         <h2>REPORT</h2>
-        <p>In addition, we produced a comprehensive academic report detailing our research methods, findings, and analyses. This report not only provides a thorough documentation of our project but also contributes to the academic community by sharing insights and methodologies. A well-structured report promotes transparency, enabling others to understand, replicate, or build upon our work, ultimately advancing knowledge in the field.</p>
+        <p>In addition, we produced an academic report detailing our research methods, findings, and analyses and provided a thorough documentation of our project.</p>
     </div>
     <div class="project-image">
         <div class="pdf-preview" onclick="togglePdf()">
@@ -73,14 +87,14 @@ function showProjectDetails(project) {
             <div class="project-section reverse">
                 <div class="text-box">
                     <h2>RESULT</h2>
-<p>The collaboration with EG Retail led to a successful redesign of the Goods Receipt and Purchase modules within their existing app. By improving both user experience and functionality, the redesign streamlined processes, making the modules more intuitive and efficient for users. These enhancements resulted in a smoother workflow, reducing errors and increasing overall user satisfaction with the app. </p>                </div>
+<p>The collaboration with EG Retail led to a successful suggested redesign of the Goods Receipt and Purchase modules within their existing app. By improving both user experience and functionality, the redesign streamlined processes, making the modules more intuitive and efficient for users. The ambition was that this suggestion would generate a smoother workflow, reduce errors and increasing overall user satisfaction with the app. </p>                </div>
                 
             </div>
 
         
             <div class="project-demo">
                 <video controls width="300" style="cursor: pointer;">
-                    <source src="img/InStoreApp2.0.mp4" type="video/mp4">
+                    <source src="img/ISA_prototype_video.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
@@ -89,7 +103,7 @@ function showProjectDetails(project) {
             <div id="videoModal" class="modal">
                 <span class="close" onclick="closeModal()">&times;</span>
                 <video controls id="modalVideo" width="100%">
-                    <source src="img/InStoreApp2.0.mp4" type="video/mp4">
+                    <source src="img/ISA_prototype_video.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>

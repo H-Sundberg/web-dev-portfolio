@@ -10,8 +10,8 @@ html{
 }
 
 body {
-    background: #080808;
-    color: #fff;
+    background: #151a2c;
+    color: rgb(255, 255, 255);
 }
 
 #header {
@@ -23,7 +23,7 @@ body {
 
 .container {
     padding: 10px 10%;
-    background: #080808;
+    background: #151a2c;
 }
 
 nav {
@@ -51,7 +51,7 @@ nav ul li a::after {
     content: "";
     width: 0;
     height: 3px;
-    background: #41b5f8;
+    background: #feca7d;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -76,7 +76,7 @@ nav ul li a:hover::after {
 }
 
 .header-text h1 span {
-    color: #41b5f8;
+    color: #feca7d;
     font-size: 65px;
 }
 
@@ -92,13 +92,13 @@ nav ul li a:hover::after {
     text-decoration: none;
     font-size: 33px;
     margin-right: 40px;
-    color:  #2580b4;
+    color:  #c6a472;
     display: inline-block;
     transition: transform 0.5s;
 }
 
 .social-icons a:hover{
-    color: #abc6d6;
+    color: #ffdca7;
     transform: translateY(-4px);
 }
 
